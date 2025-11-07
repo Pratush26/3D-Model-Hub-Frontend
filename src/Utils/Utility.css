@@ -1,0 +1,32 @@
+.grad{
+    background: linear-gradient(45deg, #23074d, #cc5333);
+}
+input, textarea{
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  font-size: .9rem;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(137, 43, 225, 0.3);
+}
+.rdio input{
+  width: fit-content;
+  cursor: pointer;
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+label, legend{
+  font-weight: 600;
+  padding-top: 18px;
+  padding-left: 4px;
+  font-size: .9rem;
+  color: black;
+  width: 94%;
+  margin: auto;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px whitesmoke inset;
+  -webkit-text-fill-color: black;
+  transition: background-color 5000s ease-in-out 0s;
+}

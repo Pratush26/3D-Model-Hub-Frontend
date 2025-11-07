@@ -6,11 +6,11 @@ import Footer from './Components/Footer'
 function App() {
 
   return (
-    <>
+    <section className='flex flex-col items-center-safe justify-between gap-2 min-h-screen w-full'>
       <Navbar />
       <Outlet />
       <Footer />
-    </>
+    </section>
   )
 }
 
